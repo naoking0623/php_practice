@@ -35,7 +35,7 @@ echo cal(2)
  }
  add (2,2)."\n";
  */
-
+/*
 echo "課題3";
  $arr = array (1,3,5,7,9);
 function ai($arr){
@@ -46,17 +46,20 @@ function ai($arr){
     return $result;       
 }
 echo ai($arr);
+*/
 
-/*
+
 echo "課題4"."\n";
 
 function max_array($arr){
     $max_number = $arr[0];
     foreach($arr as $a){
-         $a+$max_number;   
+        $a   
+        
         
     }    
     return $max_number;
 }
 echo max_array($arr);
-*/
+
+git remote add origin git@github.com:naoking0623/php_practice.git
