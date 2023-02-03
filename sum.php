@@ -48,18 +48,97 @@ function ai($arr){
 echo ai($arr);
 */
 
-
+/*
 echo "課題4"."\n";
 
 function max_array($arr){
+    $result = 0;
     $max_number = $arr[0];
     foreach($arr as $a){
-        $a   
-        
-        
     }    
     return $max_number;
 }
-echo max_array($arr);
+*/
+/*
+echo max_array([100, 2000, 30, 10000000]);
 
-git remote add origin git@github.com:naoking0623/php_practice.git
+function max_array($array){
+    $max_num = $array[0];
+    if($max_num < $array[1]){
+        $max_num = $array[1];
+    }
+    if($max_num < $array[2]){
+        $max_num = $array[2];
+    }
+    if($max_num < $array[3]){
+        $max_num = $array[3];
+    }
+    return $max_num;
+}
+*/
+/*
+echo "課題4"."\n";
+echo max_array([10,20,30,40,50,600]);
+
+function max_array ($arr){
+    $max_number = $arr[0];
+    foreach($arr as $a){
+        if($max_number < $a){
+            $max_number = $a;
+            }
+        }
+    return $max_number;
+}
+*/
+/*
+echo "課題5"."\n";
+echo "strip_tags"."\n";
+echo "タグを取り除く事ができる";
+
+
+$HEllO=["こんにちは","こんばんは","おはよう"];
+echo $HEllO."\n";
+*/
+
+
+
+
+
+
+
+
+
+/*
+echo "array_push";
+echo "入力している配列に要素を加えることができる"；
+*/
+/*
+
+echo "array_merge";
+？？？？
+*/
+/*
+echo "time,mktime";
+"時間を入力している"
+unixタイムを取得する
+
+*/
+/*
+echo "data";
+"日付を表す"
+nix日付けを取得する
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
